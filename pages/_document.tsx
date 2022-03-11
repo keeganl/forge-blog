@@ -35,6 +35,11 @@ export default class MyDocument extends Document {
             />
 
             <link rel='manifest' href='/manifest.json' />
+
+            {/* Global site tag (gtag.js) - Google Analytics */}
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-L3TRXDK130"></script>
+            <script src="gtag.js" />
+
           </Head>
 
           <body>
